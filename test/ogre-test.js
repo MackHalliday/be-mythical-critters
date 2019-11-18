@@ -92,7 +92,7 @@ describe('Ogre', function() {
     assert.equal(ogre.swings, 1);
   });
 
-  it('ogre hits human every second time it swings', function() {
+  it.skip('ogre hits human every second time it swings', function() {
     var ogre = new Ogre('Brak');
     var human = new Human('Jane');
 
@@ -108,7 +108,7 @@ describe('Ogre', function() {
     assert.equal(human.knockedOut, true);
   });
 
-  it.skip('human wakes up when ogre apologizes', function() {
+  it('human wakes up when ogre apologizes', function() {
     var ogre = new Ogre('Brak');
     var human = new Human('Jane');
 

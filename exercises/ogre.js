@@ -18,6 +18,10 @@ class Ogre {
       human.knockedOut == true
     }
   }
+
+  apologize(human){
+    human.knockedOut == false
+  }
 }
 
 module.exports = Ogre;
